@@ -9,9 +9,8 @@ ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD", "admin")
 MOCK_PRINTER = os.getenv("MOCK_PRINTER", "true").lower() == "true"
 KIOSK_IDLE_TIMEOUT_SEC = int(os.getenv("KIOSK_IDLE_TIMEOUT_SEC", 180))
 
-RAZORPAY_KEY_ID = os.getenv("RAZORPAY_KEY_ID", "")
-RAZORPAY_KEY_SECRET = os.getenv("RAZORPAY_KEY_SECRET", "")
-RAZORPAY_WEBHOOK_SECRET = os.getenv("RAZORPAY_WEBHOOK_SECRET", "")
+UPI_ID = os.getenv("UPI_ID", "masterrudra@upi")
+UPI_NAME = os.getenv("UPI_NAME", "PrintBuddy")
 
 # Constants
 MAX_FILE_SIZE_MB = 20
