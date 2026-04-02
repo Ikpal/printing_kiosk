@@ -4,7 +4,7 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "https://8b3cfd544d1922a2-223-184-141-242.serveousercontent.com/$1"
+      "destination": "https://missing-proprietary-white-usage.trycloudflare.com/$1"
     },
     {
       "source": "/(.*)",
