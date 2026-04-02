@@ -4,7 +4,7 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "https://1d4e57c72d2025.lhr.life/$1"
+      "destination": "https://dc9a9e4c66b159e1-103-215-227-230.serveousercontent.com/$1"
     },
     {
       "source": "/(.*)",
