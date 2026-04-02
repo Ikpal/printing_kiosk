@@ -4,7 +4,7 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "https://<REPLACE_WITH_NGROK_URL>/$1"
+      "destination": "https://1d4e57c72d2025.lhr.life/$1"
     },
     {
       "source": "/(.*)",
